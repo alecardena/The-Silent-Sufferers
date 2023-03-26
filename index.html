@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/easy_background.js"></script>
+    <link rel="icon" href="images/favicon-logo.png">
+
+    <title>The Silent Sufferers</title>
+</head>
+
+<body>
+    <header>
+
+        <div class="campaign-logo"><img src="images/main-logo.png" alt="logo"></div>
+
+        <nav class="site-nav">
+            <div class="logo">
+                <a href="index.html">The Silent Sufferers</a>
+            </div>
+            <a href="#" class="hamburger" id="nav-toggle"><span></span></a>
+            <div class="links" id="nav-links">
+                <a href="index.html">About</a>
+                <a href="resources.html">Resources</a>
+                <a href="merch.html">Merch</a>
+                <a href="https://seaturtlerecovery.org/ways-to-help/#donate">Donate</a>
+            </div>
+        </nav>
+
+    </header>
+    <main>
+
+        <div class="main-header">
+            <h1>The Silent Sufferers: Save the Sea Turtles</h1>
+        </div>
+
+        <div class="banner"></div>
+
+        <div class="description">
+            <h2>Why Sea Turtles?</h2>
+            <p>
+                Do you know Sea Turtles in the Pacific Ocean are increasingly in danger
+                beacuse of plastic pollution? These beautiful creatures are crucial for
+                the Oceanic ecosystem. Our organization’s goal is to increase awareness
+                around this issue and build resources to fight it.
+            </p>
+        </div>
+
+        <section class="resources">
+            <article class="resources-item">
+                <h3>Sea Turtles 101 | National Geographic</h3>
+                <div class="videoWrapper ratio-16-9">
+                    <iframe width="760" height="515" src="https://www.youtube.com/embed/5Rmv3nliwCs"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+            </article>
+        </section>
+
+        <div class="image-and-fact-grid">
+            <img src="images/image-1.png" alt="sea turtle">
+            <p>
+                <strong>
+                    Nearly all species of sea turtle are now classified as endangered, with three of
+                    the seven existing species being critically endangered. WWF is committed to stopping
+                    the decline of sea turtles and works for the recovery of the species.
+                </strong>
+            </p>
+        </div>
+
+        <div class="description">
+            <h2>How Are We Helping</h2>
+            <p>
+                We’ve created a list of useful articles and resources for you to dive deeper
+                into this issue, and learn how you can reduce your reliance on plastic. We also
+                created products whose proceeds will go to a non-profit called Sea Turtle Recovery
+                hich helps rescue and care for sea turtles. We also want to encourage people and
+                give them tips to reduce their reliance on plastic products.
+            </p>
+            <p>
+                <strong>
+                    Link to non-profit: <a href="https://seaturtlerecovery.org/">https://seaturtlerecovery.org/</a>
+                </strong>
+            </p>
+        </div>
+
+        <div class="fact-and-image-grid">
+            <p>
+                <strong>
+                    Sharp plastics can rupture internal organs and bags can cause intestinal blockages
+                    leaving turtles unable to feed, resulting in starvation. Even if they survive, consuming
+                    plastic can make turtles unnaturally buoyant, which can stunt their growth and lead to
+                    slow reproduction rates.
+                </strong>
+            </p>
+            <img src="images/image-2.png" alt="sea turtle">
+        </div>
+
+    </main>
+
+    <footer class="site-footer">
+        <P>
+            <strong>
+                Click the Icon to Visit Our Instagram Page
+            </strong>
+        </P>
+
+        <div class="social-icon">
+            <a href="#"><img src="images/instagram-icon.png" alt="instagram-icon"></a>
+        </div>
+
+        <div class="copyright">
+            &copy 2023 The Silent Sufferers
+        </div>
+
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"
+        integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <!--    Load Local version if CDN is not working-->
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.6.3.min.js"><\/script>')</script>
+    <!-- Site JavaScript file -->
+    <script src="js/main.js"></script>
+    <script src="easy_background.js"></script>
+    <script>
+        easy_background(".banner",
+            {
+                slide: ["images/sea-turtle-image-1.png", "images/sea-turtle-image-2.png", "images/sea-turtle-image-3.png", "images/sea-turtle-image-4.png", "images/sea-turtle-image-5.png", "images/sea-turtle-image-6.png"],
+
+                delay: [3000, 3000, 3000, 3000, 3000, 3000]
+            }
+        );
+    </script>
+</body>
+
+</html>
