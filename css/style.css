@@ -1,0 +1,389 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.campaign-logo {
+    text-align: center;
+}
+
+.main-header {
+    text-align: center;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+.description {
+    text-align: center;
+    background-color: #a4c3fd;
+    border-radius: 20px;
+    padding-top: 1em;
+    padding-bottom: 2em;
+    padding-left: 3em;
+    padding-right: 3em;
+    margin: 1em;
+}
+
+.description p {
+    font-size: 18px;
+}
+
+h2 {
+    font-size: 36px;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    font-size: 32px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+.social-icon {
+    padding-bottom: 1em;
+}
+
+.social-icon img {
+    width: 8%;
+}
+
+.site-footer {
+    text-align: center;
+    padding: 1em;
+    background: rgb(212, 206, 206);
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    border-radius: 20px;
+}
+
+/*========================
+  HOME PAGE STYLING
+  ========================*/
+
+.image-and-fact-grid {
+    display: grid;
+    text-align: center;
+    grid-template-columns: 1fr;
+    gap: 1em;
+    padding-top: 1em;
+    padding-bottom: 2em;
+}
+
+.image-and-fact-grid img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.image-and-fact-grid p {
+    margin-top: 2em;
+    padding-left: 1em;
+    padding-right: .5em;
+    font-size: 28px;
+}
+
+.fact-and-image-grid {
+    display: grid;
+    text-align: center;
+    grid-template-columns: 1fr;
+    gap: 2em;
+    padding-top: 1em;
+    padding-bottom: 2em;
+}
+
+.fact-and-image-grid p {
+    font-size: 28px;
+    padding-right: 1em;
+    padding-left: 1em;
+}
+
+.fact-and-image-grid img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+/*========================
+  END OF HOME PAGE STYLING
+  ========================*/
+
+/*========================
+  RESOURCES PAGE STYLING
+  ========================*/
+
+.resources {
+    text-align: center;
+    background-color: #dadee7;
+    border-radius: 20px;
+    padding: 1em;
+    margin-left: 4em;
+    margin-right: 4em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.posters-grid {
+    display: grid;
+    text-align: center;
+    grid-template-columns: 1fr;
+    gap: 2em;
+    padding-top: 1em;
+    padding-bottom: 2em;
+}
+
+/* Video CSS */
+.videoWrapper {
+    position: relative;
+    padding-top: 25px;
+    height: 0;
+    clear: both;
+}
+
+.videoWrapper.ratio-16-9 {
+    padding-bottom: 56.25%;
+    /* 16:9 */
+}
+
+.videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.posters-grid img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.poster img {
+    margin-bottom: 2em;
+}
+
+.button {
+    padding: 0.5em;
+    background-color: #284d79;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.button:hover {
+    color: red;
+}
+
+/*========================
+  END OF RESOURCES PAGE STYLING
+  ========================*/
+
+/*========================
+  MERCH PAGE STYLING
+  ========================*/
+
+.merch-grip {
+    display: grid;
+    text-align: center;
+    grid-template-columns: 1fr;
+    gap: 1em;
+    padding-top: 1em;
+    padding-bottom: 2em;
+    padding-right: 3em;
+    padding-left: 3em;
+}
+
+.merch img {
+    border-radius: 20px;
+}
+
+.merch-image {
+    text-align: center;
+    padding-bottom: 2em;
+}
+
+/*========================
+  END OF MERCH PAGE STYLING
+  ========================*/
+
+/*========================
+  BANNER STYLING
+  ========================*/
+.banner {
+    background-color: lightgray;
+    padding: 10em 2em;
+    margin-bottom: 2em;
+    border: solid 1px lightgray;
+    border-radius: 20px;
+    margin-top: 2em;
+}
+
+/*========================
+  END OF BANNER STYLING
+  ========================*/
+
+/*========================
+  NAVIGATION STYLING
+  ========================*/
+.site-nav {
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 1rem;
+    /* adds space between logo and nav items if the items wrap under the logo */
+    justify-content: space-between;
+    padding: 1.5rem 2rem;
+    background-color: #a4c3fd;
+    transition: top 500ms ease-in-out;
+    border-radius: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+.logo {
+    /* you may change this styling to fit your site*/
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+}
+
+.logo a:hover {
+    color: white;
+}
+
+/* CSS Hamburger Icon thanks to Elijah Manor */
+.hamburger {
+    padding-right: 2rem;
+    position: relative;
+}
+
+.hamburger span,
+.hamburger span:before,
+.hamburger span:after {
+    cursor: pointer;
+    border-radius: 1px;
+    height: 5px;
+    width: 35px;
+    background: #000;
+    /*color of hamburger icon */
+
+    position: absolute;
+    display: block;
+    content: '';
+}
+
+.hamburger span {
+    top: 5px;
+}
+
+.hamburger span:before {
+    top: -10px;
+}
+
+.hamburger span:after {
+    bottom: -10px;
+}
+
+.site-nav.scroll-up,
+.site-nav:focus-within {
+    top: 0;
+}
+
+.site-nav.scroll-down {
+    top: -100%;
+}
+
+.links {
+    display: none;
+    height: 0;
+    flex-basis: 100%;
+    text-align: right;
+}
+
+.links.active {
+    display: block;
+    /*   height: auto; */
+}
+
+.links a {
+    display: block;
+    line-height: 1rem;
+    margin: 2rem 0;
+}
+
+.links a:hover {
+    color: white;
+}
+
+.links {
+    transition: height .5s ease;
+    overflow: hidden;
+}
+
+.site-nav a {
+    color: #0f0f0f;
+    text-decoration: none;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+}
+
+/*=========================
+   END OF NAVIGATION STYLING
+  =========================*/
+
+@media screen and (min-width:800px) {
+    .hamburger {
+        display: none;
+    }
+
+    .links {
+        display: flex;
+        flex-basis: auto;
+        height: auto;
+        margin: 0 -1em;
+    }
+
+    .links a {
+        display: inline-block;
+        margin: 0 1em;
+    }
+
+    .image-and-fact-grid {
+        grid-template-columns: 1fr 1fr;
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+
+    .fact-and-image-grid {
+        grid-template-columns: 1fr 1fr;
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+
+    .posters-grid {
+        grid-template-columns: 1fr 1fr;
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+
+    .merch-grip {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    .social-icon img {
+        width: 4%;
+    }
+}
