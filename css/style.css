@@ -35,6 +35,16 @@ h1 {
     font-size: 18px;
 }
 
+.description a{
+    text-decoration: none;
+    color: red;
+}
+
+.description a:hover{
+    color: aqua;
+    text-decoration: underline;
+}
+
 h2 {
     font-size: 36px;
     text-align: center;
