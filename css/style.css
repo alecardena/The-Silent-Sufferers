@@ -41,7 +41,7 @@ h1 {
 }
 
 .description a:hover{
-    color: aqua;
+    color: rgb(0, 38, 255);
     text-decoration: underline;
 }
 
