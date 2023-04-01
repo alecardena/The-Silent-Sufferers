@@ -141,6 +141,16 @@ h4 {
     margin-bottom: 1em;
 }
 
+.read-more a{
+    text-decoration: none;
+    color: red;
+}
+
+.read-more a:hover{
+    color: rgb(0, 38, 255);
+    text-decoration: underline;
+}
+
 .posters-grid {
     display: grid;
     text-align: center;
