@@ -35,12 +35,12 @@ h1 {
     font-size: 18px;
 }
 
-.description a{
+.description a {
     text-decoration: none;
     color: red;
 }
 
-.description a:hover{
+.description a:hover {
     color: rgb(0, 38, 255);
     text-decoration: underline;
 }
@@ -141,23 +141,14 @@ h4 {
     margin-bottom: 1em;
 }
 
-.read-more a{
+.read-more a {
     text-decoration: none;
     color: red;
 }
 
-.read-more a:hover{
+.read-more a:hover {
     color: rgb(0, 38, 255);
     text-decoration: underline;
-}
-
-.posters-grid {
-    display: grid;
-    text-align: center;
-    grid-template-columns: 1fr;
-    gap: 2em;
-    padding-top: 1em;
-    padding-bottom: 2em;
 }
 
 /* Video CSS */
@@ -182,13 +173,16 @@ h4 {
     border-radius: 20px;
 }
 
-.posters-grid img {
-    width: 100%;
+.poster-item {
+    text-align: center;
     border-radius: 20px;
+    margin-bottom: 2em;
 }
 
-.poster img {
+.poster-item img {
+    border-radius: 20px;
     margin-bottom: 2em;
+    width: 100%;
 }
 
 .button {
@@ -393,11 +387,10 @@ h4 {
         padding-right: 2em;
     }
 
-    .posters-grid {
-        grid-template-columns: 1fr 1fr;
-        padding-left: 2em;
-        padding-right: 2em;
+    .poster-item img {
+        width: 60%;
     }
+
 
     .merch-grip {
         grid-template-columns: 1fr 1fr 1fr 1fr;
