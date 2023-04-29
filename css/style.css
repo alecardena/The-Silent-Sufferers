@@ -59,6 +59,11 @@ h4 {
     font-size: 20px;
 }
 
+.official-logo-image {
+    text-align: center;
+    padding-bottom: 2em;
+}
+
 .social-icon {
     padding-bottom: 1em;
 }
@@ -120,6 +125,26 @@ h4 {
 .fact-and-image-grid img {
     width: 100%;
     border-radius: 20px;
+}
+
+.image-and-fact-grid a {
+    text-decoration: none;
+    color: red;
+}
+
+.image-and-fact-grid a:hover {
+    color: rgb(0, 38, 255);
+    text-decoration: underline;
+}
+
+.fact-and-image-grid a {
+    text-decoration: none;
+    color: red;
+}
+
+.fact-and-image-grid a:hover {
+    color: rgb(0, 38, 255);
+    text-decoration: underline;
 }
 
 /*========================
@@ -218,11 +243,6 @@ h4 {
 
 .merch img {
     border-radius: 20px;
-}
-
-.merch-image {
-    text-align: center;
-    padding-bottom: 2em;
 }
 
 /*========================
