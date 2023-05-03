@@ -1,5 +1,9 @@
 * {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    background-color: #97b7e0;
 }
 
 main {
@@ -22,7 +26,7 @@ h1 {
 
 .description {
     text-align: center;
-    background-color: #a4c3fd;
+    background-color: #e2ebf6;
     border-radius: 20px;
     padding-top: 1em;
     padding-bottom: 2em;
@@ -37,7 +41,7 @@ h1 {
 
 .description a {
     text-decoration: none;
-    color: red;
+    color: #f6921e;
 }
 
 .description a:hover {
@@ -75,7 +79,7 @@ h4 {
 .site-footer {
     text-align: center;
     padding: 1em;
-    background: rgb(212, 206, 206);
+    background: #e2ebf6;
     max-width: 1200px;
     margin: 0 auto;
     position: relative;
@@ -129,7 +133,7 @@ h4 {
 
 .image-and-fact-grid a {
     text-decoration: none;
-    color: red;
+    color: #f6921e;
 }
 
 .image-and-fact-grid a:hover {
@@ -139,7 +143,7 @@ h4 {
 
 .fact-and-image-grid a {
     text-decoration: none;
-    color: red;
+    color: #f6921e;
 }
 
 .fact-and-image-grid a:hover {
@@ -157,7 +161,7 @@ h4 {
 
 .resources {
     text-align: center;
-    background-color: #dadee7;
+    background-color: #e2ebf6;
     border-radius: 20px;
     padding: 1em;
     margin-left: 4em;
@@ -168,7 +172,7 @@ h4 {
 
 .read-more a {
     text-decoration: none;
-    color: red;
+    color: #f6921e;
 }
 
 .read-more a:hover {
@@ -212,14 +216,14 @@ h4 {
 
 .button {
     padding: 0.5em;
-    background-color: #284d79;
-    color: white;
+    background-color: #e2ebf6;
+    color: #f6921e;
     border-radius: 10px;
     text-decoration: none;
 }
 
 .button:hover {
-    color: red;
+    color: rgb(0, 38, 255);
 }
 
 /*========================
@@ -256,7 +260,6 @@ h4 {
     background-color: lightgray;
     padding: 10em 2em;
     margin-bottom: 2em;
-    border: solid 1px lightgray;
     border-radius: 20px;
     margin-top: 2em;
 }
@@ -277,7 +280,7 @@ h4 {
     /* adds space between logo and nav items if the items wrap under the logo */
     justify-content: space-between;
     padding: 1.5rem 2rem;
-    background-color: #a4c3fd;
+    background-color: #e2ebf6;
     transition: top 500ms ease-in-out;
     border-radius: 20px;
     max-width: 1200px;
@@ -294,7 +297,7 @@ h4 {
 }
 
 .logo a:hover {
-    color: white;
+    color: #f6921e;
 }
 
 /* CSS Hamburger Icon thanks to Elijah Manor */
@@ -358,7 +361,7 @@ h4 {
 }
 
 .links a:hover {
-    color: white;
+    color: #f6921e;
 }
 
 .links {
