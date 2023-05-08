@@ -50,17 +50,17 @@ h1 {
 }
 
 h2 {
-    font-size: 36px;
+    font-size: 40px;
     text-align: center;
 }
 
 h3 {
     text-align: center;
-    font-size: 32px;
+    font-size: 36px;
 }
 
 h4 {
-    font-size: 20px;
+    font-size: 24px;
 }
 
 .official-logo-image {
@@ -212,6 +212,7 @@ h4 {
     border-radius: 20px;
     margin-bottom: 2em;
     width: 100%;
+    border: solid 1px black;
 }
 
 .button {
@@ -243,6 +244,17 @@ h4 {
     padding-bottom: 2em;
     padding-right: 3em;
     padding-left: 3em;
+}
+
+.merch-grip a{
+    text-decoration: none;
+    color: #f6921e;
+    font-weight: 1000;
+}
+
+.merch-grip a:hover {
+    color: rgb(0, 38, 255);
+    text-decoration: underline;
 }
 
 .merch img {
@@ -286,12 +298,11 @@ h4 {
     max-width: 1200px;
     margin: 0 auto;
     position: relative;
-
 }
 
 .logo {
     /* you may change this styling to fit your site*/
-    font-weight: bold;
+    font-weight: 1000;
     text-transform: uppercase;
     letter-spacing: 0.2em;
 }
@@ -347,6 +358,7 @@ h4 {
     height: 0;
     flex-basis: 100%;
     text-align: right;
+    font-weight: 500;
 }
 
 .links.active {
